@@ -26,36 +26,116 @@
         </div>
     </header>
 
-    <main>
-        <section class="">
-
+    <main>       
+        <!--Brødsmulesti-->
+        <section>
+            <!--Ferdigstille lenkingaga -->
+        <ul class="breadcrumb">
+            <li><a href="index.html">Hjem</a></li>
+            <li><a href="#kategorier">Kategori</a></li>
+            <li><a href="">Produktside</a></li>
+          </ul>
         </section>
 
-        <section class="">
+        <article>
+        <!--Hoveproduktområde-->
+            <section>
+                <figure>
+                    <img src="stort-bilde.jpg" alt="Hovedproduktbilde">
+                    <figcaption>Hovedproduktbilde</figcaption>
+                </figure>
+                
+                <!-- Mindre bilder -->
+                <figure>
+                    <img src="bilde1.jpg" alt="Mindre bilde 1">
+                </figure>
+                <figure>
+                    <img src="bilde2.jpg" alt="Mindre bilde 2">
+                </figure>
+                <figure>
+                    <img src="bilde3.jpg" alt="Mindre bilde 3">
+                </figure>
+            </section>
+            <section>
+                <header>
+                    <h1>Produktnavn</h1>
+                    <p><a href="#">Merkenavn</a></p>
+                </header>
+                <p>Pris: 5 195 kr inkl. mva.</p>
+                <p>Farge: <span>Beige</span></p>
 
-        </section>
+                <!-- Størrelse nedtrekksmeny C-krav -->
+                <label for="størrelse">Størrelse:</label>
+                <select id="størrelse" name="størrelse">
+                    <option>Velg størrelse</option>
+                    <option>XS</option>
+                    <option>S</option>
+                    <option>M</option>
+                    <option>L</option>
+                    <option>XL</option>
+                </select>
 
-        <section class="">
 
-        </section>
+                 <!-- Legg i handlekurv-knapp -->
+                    <button type="button">Legg i handlekurv</button>
 
-        <section class="">
+                  <!-- Legg i favoritt-knapp -->
+                    <button type="button">Favoritter</button>
+    
 
-        </section>
-
-
-        
+          
+            </section>
+        </article>
 
     </main>
 
-    <aside>
+    <aside aria-label="Relaterte produkter">
+        <h2>Relaterte produkter</h2>
 
+        <!--  produktkort 1 -->
+        <article>
+            <figure>
+                <img src="relatert-produkt1.jpg" alt="Relatert produkt 1">
+                <figcaption>Produktnavn 1</figcaption>
+            </figure>
+            <p>Pris: 299 kr</p>
+        </article>
+
+        <!--  produktkort 2 -->
+        <article>
+            <figure>
+                <img src="relatert-produkt2.jpg" alt="Relatert produkt 2">
+                <figcaption>Produktnavn 2</figcaption>
+            </figure>
+            <p>Pris: 399 kr</p>
+        </article>
+
+        <!--  produktkort 3 -->
+        <article>
+            <figure>
+                <img src="relatert-produkt3.jpg" alt="Relatert produkt 3">
+                <figcaption>Produktnavn 3</figcaption>
+            </figure>
+            <p>Pris: 499 kr</p>
+        </article>
+
+        <!-- produktkort 4 -->
+        <article>
+            <figure>
+                <img src="relatert-produkt4.jpg" alt="Relatert produkt 4">
+                <figcaption>Produktnavn 4</figcaption>
+            </figure>
+            <p>Pris: 599 kr</p>
+        </article>
     </aside>
+
+
+   
 
     <footer>
         <section>
             <img src="logo.png" alt="Logo">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, consectetur vitae! In quae doloremque et magnam quia incidunt reprehenderit harum, repellat, vitae quos quam debitis inventore non ea cum nisi!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit ipsum velit perspiciatis iste excepturi quos optio quae quam aspernatur. Et nostrum iusto quasi nihil, ad id. Rem, labore voluptatibus!</p>
         </section>
 
         <section>
@@ -65,19 +145,17 @@
 
         <section>
             <h3>Snarveier</h3>
-            <a href="index.html">Produkter</a>
-            <a href="#produkter">Kategorier</a>
-            <a href="#produkter">Kontakt Oss</a>
-            
-
+            <a href="index.html">Hjem</a>
+            <a href="#produkter">Produkter</a>
         </section>
 
         <section>
             <h3>Sosiale medier</h3>
-            <a href="">Instagram</a>
-            <a href="">Facebook</a>
-            <a href="">LinkedIn</a>
-            <a href="">Pinterest</a>
+            <a href="https://www.instagram.com">Instagram</a>
+            <a href="https://www.facebook.com">Facebook</a>
+            <a href="https://www.linkedin.com">LinkedIn</a>
+            <a href="https://no.pinterest.com">Pinterest</a>
+
         </section>
 
     </footer>
